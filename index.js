@@ -7,8 +7,7 @@ const port = 3000;
 
 app.use(
   cors({
-    credentials: false,
-    origin: "*",
+    origin: ["http://localhost:5173"],
   })
 );
 
